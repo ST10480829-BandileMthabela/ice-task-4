@@ -1,0 +1,144 @@
+nav {
+    background-color: rgb(20, 68, 51);
+    padding: 1rem;
+    text-align: center;
+    top: 0;
+}
+
+nav a {
+    color: #00ff00;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #00ff00;
+    border-radius: 100px;
+}
+
+nav a:hover {
+    background-color: #00ff00;
+    color: rgb(20, 68, 51);
+}
+
+body {
+    margin: 0;
+    padding: 0;width: 100%;
+    width: 100%;
+    height: auto;
+    background-image: url(https://i.pinimg.com/1200x/66/79/f5/6679f52217af92102dad3645627843f0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+main h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+   
+}
+
+main h2 {
+    color: #06fbff;
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+main p {
+    
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 200px;
+    height: 400px;
+    background-color: navy;
+    margin-left: 10px;
+    border-radius: 20px;
+    transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first{
+    background-image: url(https://fictionhorizon.com/wp-content/uploads/2022/07/Drum_Island_Infobox.webp);
+}
+
+.second{
+    background-image: url(https://fictionhorizon.com/wp-content/uploads/2022/07/Fish-Man_Island_Infobox.webp);
+}
+
+.third{
+    background-image: url(https://fictionhorizon.com/wp-content/uploads/2022/07/Dressrosa_Inside_the_Bird_Cage_Aerial_View.webp);
+}
+
+.fourth{
+    background-image: url(https://i.pinimg.com/1200x/b6/2e/39/b62e390b21b093e1c89a22b45ec0e928.jpg);
+}
+
+.comment {
+    background-color: #084b1b;
+    border-radius: 0 15px 15px 0;
+    padding: 2rem;
+    margin: 2rem 0;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.comment:hover {
+    transform: translateX(10px);
+    background-color: #023d15;  
+}
+
+.comment img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #084b1b;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.comment h2 {
+    margin-left: 80px;
+    color: #58db07;
+    font-size: 1.3rem;
+    border-bottom: none;
+    text-align: left;
+    padding: 0;
+}
+
+.comment p {
+    margin-left: 80px;
+    font-style: italic;
+    text-align: left;
+    color: #f0f0f0 ;
+    position: relative;
+}
